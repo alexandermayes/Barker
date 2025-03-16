@@ -1,0 +1,15 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
+	<Script file="localization.en.lua" />
+	<Script file="localization.fr.lua" />
+	<Script file="Barker.lua" />
+	<Script file="Barker_UI.lua" />
+	<Frame name="Barker_Frame" frameStrata="BACKGROUND" toplevel="true" enableMouse="false" movable="false">
+		<Scripts>
+			<OnLoad>
+				-- Initialization is now handled in Barker.lua
+			</OnLoad>
+		</Scripts>
+	</Frame>
+</Ui>
