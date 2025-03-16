@@ -1,0 +1,22 @@
+## Interface: 110100
+## Title: Barker
+## Author: LenweSaralonde, Enhanced by Claude
+## Version: 1.0.0
+## IconTexture: interface/icons/ui_chat.blp
+## Notes: Advanced chat channel message automation system for announcements and advertising
+## RequiredDeps: MessageQueue
+## SavedVariables: BK_config
+## SavedVariablesPerCharacter: BK_characterConfig
+## Category-enUS: Chat
+## Category-deDE: Chat
+## Category-esES: Chat
+## Category-esMX: Chat
+## Category-frFR: Discussion
+## Category-itIT: Chat
+## Category-koKR: 대화
+## Category-ptBR: Bate-papo
+## Category-ruRU: Чат
+## Category-zhCN: 聊天
+## Category-zhTW: 對話
+
+Barker.xml

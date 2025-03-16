@@ -15,39 +15,39 @@ Barker is an advanced chat message automation system for World of Warcraft. It p
 ## Getting Started
 
 1. Install the addon along with its dependency, MessageQueue
-2. Type `/barkui` to open the configuration window
+2. Type `/bkrui` to open the configuration window
 3. Add your messages and configure channels
 4. Click "Enable Barker" to start sending messages
 
 ## Commands
 
 ### Basic Commands
-* `/bark [on|off]` - Start/stop sending messages
-* `/barkui` - Open the graphical user interface
-* `/barkinfo` - Display current settings
+* `/bkr [on|off]` - Start/stop sending messages
+* `/bkrui` - Open the graphical user interface
+* `/bkrinfo` - Display current settings
 
 ### Message Commands
-* `/barkmsg <message>` - Add a message to the rotation
-* `/barkmsgremove <index>` - Remove a message by index
-* `/barkmode <sequential|random>` - Set message rotation mode
+* `/bkrmsg <message>` - Add a message to the rotation
+* `/bkrmsgdel <index>` - Remove a message by index
+* `/bkrmode <sequential|random>` - Set message rotation mode
 
 ### Channel Commands
-* `/barkchan <channel> [rate]` - Add a channel with optional custom rate
-* `/barkchanremove <index>` - Remove a channel by index
-* `/barkchantoggle <index>` - Enable/disable a channel
+* `/bkrchan <channel> [rate]` - Add a channel with optional custom rate
+* `/bkrchandel <index>` - Remove a channel by index
+* `/bkrchantog <index>` - Enable/disable a channel
 
 ### Timing Commands
-* `/barkrate <seconds>` - Set the base interval (min 10)
-* `/barkvariance <seconds>` - Set random time variance (0-60)
-* `/barkhours <start> <end>` - Set active hours (0-24)
-* `/barkday <1-7>` - Toggle day (1=Sun, 7=Sat)
-* `/barkmax <count>` - Set max messages (0=unlimited)
+* `/bkrrate <seconds>` - Set the base interval (min 10)
+* `/bkrvar <seconds>` - Set random time variance (0-60)
+* `/bkrhours <start> <end>` - Set active hours (0-24)
+* `/bkrday <1-7>` - Toggle day (1=Sun, 7=Sat)
+* `/bkrmax <count>` - Set max messages (0=unlimited)
 
 ### Other Commands
-* `/barkalternate` - Toggle channel alternating
-* `/barkshowchat` - Toggle showing messages in chat
-* `/barkdebug` - Toggle debug mode
-* `/barkhelp` - Show help message
+* `/bkralt` - Toggle channel alternating
+* `/bkrshow` - Toggle showing messages in chat
+* `/bkrdebug` - Toggle debug mode
+* `/bkrhelp` - Show help message
 
 ## Channel Types
 

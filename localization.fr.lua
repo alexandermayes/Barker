@@ -2,7 +2,7 @@
 -- Enhanced by Claude
 
 if (GetLocale() == "frFR") then
-	BARKER_LOAD = "Barker VERSION chargé. Tapez /barkhelp pour obtenir de l'aide ou /barkui pour ouvrir l'interface."
+	BARKER_LOAD = "Barker VERSION chargé. Tapez /bkrhelp pour obtenir de l'aide ou /bkrui pour ouvrir l'interface."
 
 	-- Basic messages
 	BARKER_STATS = "\"MESSAGE\" est envoyé toutes les RATE secondes dans le canal /CHANNEL."
@@ -105,38 +105,38 @@ if (GetLocale() == "frFR") then
 	BARKER_ENABLED = "Activé"
 	BARKER_DISABLED = "Désactivé"
 
-	-- Help text
-	BARKER_HELP = {
-		"==================== Barker ====================",
-		"Barker envoie périodiquement des messages dans un ou plusieurs canaux de discussion.",
-		"Parfait pour annoncer des services, recruter pour des guildes, ou promouvoir des événements.",
-		"",
-		"Commandes de base :",
-		"/bark [on|off] : Démarrer/arrêter l'envoi de messages",
-		"/barkui : Ouvrir l'interface graphique",
-		"/barkinfo : Afficher les paramètres actuels",
-		"",
-		"Commandes de messages :",
-		"/barkmsg <message> : Ajouter un message à la rotation",
-		"/barkmsgremove <index> : Supprimer un message par index",
-		"/barkmode <sequential|random> : Définir le mode de rotation des messages",
-		"",
-		"Commandes de canaux :",
-		"/barkchan <canal> [taux] : Ajouter un canal avec taux personnalisé optionnel",
-		"/barkchanremove <index> : Supprimer un canal par index",
-		"/barkchantoggle <index> : Activer/désactiver un canal",
-		"",
-		"Commandes de timing :",
-		"/barkrate <secondes> : Définir l'intervalle de base (min 10)",
-		"/barkvariance <secondes> : Définir la variance de temps aléatoire (0-60)",
-		"/barkhours <début> <fin> : Définir les heures actives (0-24)",
-		"/barkday <1-7> : Basculer le jour (1=Dim, 7=Sam)",
-		"/barkmax <count> : Définir max messages (0=illimité)",
-		"",
-		"Autres commandes :",
-		"/barkalternate : Basculer l'alternance des canaux",
-		"/barkshowchat : Basculer l'affichage des messages dans le chat",
-		"/barkdebug : Basculer le mode débogage",
-		"/barkhelp : Afficher cette aide"
-	}
+-- Help text
+BARKER_HELP = {
+    "==================== Barker ====================",
+    "Barker envoie périodiquement des messages dans un ou plusieurs canaux de discussion.",
+    "Parfait pour annoncer des services, recruter pour des guildes, ou promouvoir des événements.",
+    "",
+    "Commandes de base :",
+    "/bkr [on|off] : Démarrer/arrêter l'envoi de messages",
+    "/bkrui : Ouvrir l'interface graphique",
+    "/bkrinfo : Afficher les paramètres actuels",
+    "",
+    "Commandes de messages :",
+    "/bkrmsg <message> : Ajouter un message à la rotation",
+    "/bkrmsgdel <index> : Supprimer un message par index",
+    "/bkrmode <sequential|random> : Définir le mode de rotation des messages",
+    "",
+    "Commandes de canaux :",
+    "/bkrchan <canal> [taux] : Ajouter un canal avec taux personnalisé optionnel",
+    "/bkrchandel <index> : Supprimer un canal par index",
+    "/bkrchantog <index> : Activer/désactiver un canal",
+    "",
+    "Commandes de timing :",
+    "/bkrrate <secondes> : Définir l'intervalle de base (min 10)",
+    "/bkrvar <secondes> : Définir la variance de temps aléatoire (0-60)",
+    "/bkrhours <début> <fin> : Définir les heures actives (0-24)",
+    "/bkrday <1-7> : Basculer le jour (1=Dim, 7=Sam)",
+    "/bkrmax <count> : Définir max messages (0=illimité)",
+    "",
+    "Autres commandes :",
+    "/bkralt : Basculer l'alternance des canaux",
+    "/bkrshow : Basculer l'affichage des messages dans le chat",
+    "/bkrdebug : Basculer le mode débogage",
+    "/bkrhelp : Afficher cette aide"
+}
 end
